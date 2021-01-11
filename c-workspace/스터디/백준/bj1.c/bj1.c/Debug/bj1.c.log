@@ -1,0 +1,4 @@
+﻿  1.c
+c:\users\tlswh\desktop\1학년-1\c-workspace\스터디\백준\bj1.c\bj1.c\1.c(5): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
+  bj1.c.vcxproj -> C:\Users\tlswh\Desktop\1학년-1\c-workspace\스터디\백준\bj1.c\Debug\bj1.c.exe

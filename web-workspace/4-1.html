@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>주문서</title>
+</head>
+<body>
+  <form>
+    <h1>주문서 정보</h1>
+    <fieldset>
+      <legend id="user">개인 정보</legend>
+        <blockquote>
+          <p><label for="username">이름&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;</label>
+          <input type="text" id="username" placeholder="공백없이 입력하세요">
+        </p>
+        <p><label for="email">메일주소&emsp;&emsp;&emsp;&nbsp;</label>
+          <input type="email" id="email" placeholder="abcd@abcd.com">
+        </p>
+        <p><label for="url">홈페이지(URL)&nbsp;&ensp;</label>
+          <input type="url" id="url" placeholder="공백없이 입력하세요">
+        </p>
+      </blockquote>
+      </fieldset>
+      <br>
+      <fieldset>
+        <blockquote>
+        <p><label for="search">상품 검색&emsp;&emsp;&emsp;</label>
+          <input type="search" id="search">
+        </p>
+      </blockquote>
+      </fieldset>
+      <br>
+      <fieldset>
+        <legend id="info">주문 정보&emsp;&emsp;&emsp;</legend>
+        <blockquote>
+        <p><label for="color">주문 색상&emsp;&emsp;&emsp;</label>
+          <select>
+            <option>화이트</option>
+            <option>블랙</option>
+            <option>레드</option>
+            <option>블루</option>
+          </select>
+        </p>
+        <p><label for="amount">주문 개수&emsp;&emsp;&ensp;</label>
+          <input type="range" id="amount" value="1" min="1" max="10" step="1">
+        </p>
+        <p><label for="size">사이즈&emsp;&emsp;&emsp;&emsp;&nbsp;<label>
+          <input type="number" id="size" value="85" min="85" max="115" step="5">
+        </p>
+      </blockquote>
+      </fieldset>
+      <br>
+      <fieldset>
+        <blockquote>
+        <p><label for="date">주문일&emsp;&emsp;&emsp;&emsp;&nbsp;</label>
+          <input type="date" id="date">
+        </p>
+      </blockquote>
+      </fieldset>
+      <br>
+      <fieldset>
+        <center><input type="submit" value="제출">
+        <input type="reset" value="초기화"></center>
+      </fieldset>
+    </form>
+</body>
+</html>

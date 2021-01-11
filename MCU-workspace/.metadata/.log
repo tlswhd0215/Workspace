@@ -1,0 +1,27 @@
+!SESSION 2020-07-07 03:47:09.901 -----------------------------------------------
+eclipse.buildId=Version 1.3.0
+java.version=1.8.0_242
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2020-07-07 03:48:18.612
+!MESSAGE Log4j initialized with config file C:\Users\tlswh\Desktop\Workspace\MCU-workspace\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2020-07-07 03:48:24.626
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 4 4 2020-07-07 03:48:25.910
+!MESSAGE com.st.stm32cube.ide.mcu.ide/META-INF/version/build_ref file not found, build reference will not be reported into properties
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-07-07 04:04:38.671
+!MESSAGE Indexed 'test_CM4' (0 sources, 0 headers) in 0.007 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-07-07 04:04:39.140
+!MESSAGE Indexed 'test_CM7' (0 sources, 0 headers) in 0.001 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-07-07 04:05:06.565
+!MESSAGE Indexed 'test_CM4' (24 sources, 84 headers) in 11.7 sec: 7,326 declarations; 52,729 references; 0 unresolved inclusions; 1 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-07-07 04:05:12.163
+!MESSAGE Indexed 'test_CM7' (24 sources, 84 headers) in 5.58 sec: 7,415 declarations; 53,778 references; 0 unresolved inclusions; 1 syntax errors; 0 unresolved names (0%)

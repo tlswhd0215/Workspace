@@ -1,0 +1,55 @@
+/*
+ * Homework2_2
+ * Developed by SeongJune Park
+ * April-23 2020
+ */
+import javax.swing.*;
+public class test_1 {
+
+   public static void main(String[] args) {
+      int height,check = -1;
+      String human = "a";
+      
+         human = JOptionPane.showInputDialog(null,"Are you Male or Feamle?\ninput [M/F]: ");
+         if(human.equals("F")) {
+               check = 0;
+               System.exit(1);
+           
+            }
+         else if(human.equals("M")) {
+               check = 1;
+               System.exit(1);
+               
+         }
+         else
+            JOptionPane.showMessageDialog(null, "Enter M or F");
+         
+      
+      String heightStr = JOptionPane.showInputDialog(null,"Enter your hegiht: ");
+      
+      height = Integer.parseInt(heightStr);
+      
+      if(check == 0) {
+         if(height > 150) {
+            System.out.println("Your ideal weight is " + (37.8 + 0.75 * (height - 150))+ "kg");
+            
+         }
+         else
+            System.out.println("Your ideal weight is 37.8kg");
+
+      }
+      
+      if(check == 1) {
+         if(height > 150) {
+            System.out.println("Your ideal weight is " + (40 + 0.89 * (height - 150))+ "kg");
+            
+         }
+         else
+            System.out.println("Your ideal weight is 40kg");
+
+      }
+      
+      
+   }
+
+}

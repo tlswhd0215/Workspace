@@ -1,0 +1,3 @@
+﻿  RopMode.cpp
+c:\users\tlswh\desktop\workspace\windows-workspace\windows\ropmode\ropmode.cpp(46): warning C4101: 'ps' :참조되지 않은 지역 변수입니다.
+  RopMode.vcxproj -> C:\Users\tlswh\Desktop\Workspace\windows-workspace\windows\Debug\RopMode.exe
